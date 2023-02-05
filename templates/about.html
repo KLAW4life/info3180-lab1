@@ -4,12 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 
 <body>
     <h1>Kerene Wright</h1>
-    <p>I am Computer Science major who enjoys learning about Website Development, A.I. and Cyber Security.
-         I enjoy in my free time reading manga and watching anime, Marvel and DC movies and TV shows.</p>
+    <p>I am Computer Science major who enjoys learning about Website Development, A.I. and Cyber Security. I enjoy in my free time reading manga and watching anime, Marvel and DC movies and TV shows.</p>
+    <img src="{{url_for('static', filename='css/Github Logo.jpg') }}" />
 </body>
 
 </html>
